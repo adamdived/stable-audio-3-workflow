@@ -2,8 +2,6 @@
 
 A ComfyUI workflow for AI-powered music and audio stem generation using **Stable Audio 3**, featuring structured text prompting for precise control over genre, instruments, mood, and BPM.
 
-> Workflow assembled by **Marco Capelli** · [@adamdived1](https://x.com/adamdived1)
-
 ---
 
 ## Features

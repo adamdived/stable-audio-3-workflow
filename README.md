@@ -1,4 +1,4 @@
-# 🎵 Stable Audio 3 — ComfyUI Workflow
+# Stable Audio 3 — ComfyUI Workflow
 
 A ComfyUI workflow for AI-powered music and audio stem generation using **Stable Audio 3**, featuring structured text prompting for precise control over genre, instruments, mood, and BPM.
 
@@ -6,7 +6,7 @@ A ComfyUI workflow for AI-powered music and audio stem generation using **Stable
 
 ---
 
-## ✨ Features
+## Features
 
 - Full-track audio generation up to **120 seconds**
 - Structured prompt system following Stable Audio 3's official format
@@ -18,7 +18,7 @@ A ComfyUI workflow for AI-powered music and audio stem generation using **Stable
 
 ---
 
-## 📦 Required Models
+## Required Models
 
 Download and place these files in the correct directories:
 
@@ -29,7 +29,7 @@ Download and place these files in the correct directories:
 
 ---
 
-## 🔌 Required Custom Nodes
+## Required Custom Nodes
 
 - [KJNodes](https://github.com/kijai/ComfyUI-KJNodes) — for Set/Get routing nodes
 - [ComfyUI-Pixaroma](https://github.com/pixaroma/ComfyUI-Pixaroma) — for the embedded documentation note
@@ -37,7 +37,7 @@ Download and place these files in the correct directories:
 
 ---
 
-## ⚙️ Sampler Settings
+## Sampler Settings
 
 | Model Type | Distilled | Steps | CFG |
 |------------|-----------|-------|-----|
@@ -53,7 +53,7 @@ Download and place these files in the correct directories:
 
 ---
 
-## ✍️ Prompt Structure
+## Prompt Structure
 
 Stable Audio 3 responds best to a **structured prompt format**. The order of elements matters — always start with `Format` and `Genre`.
 
@@ -86,7 +86,7 @@ Format: Band | Genre: Rock | Subgenre: Easy Rock, Commercial Pop-Rock | Instrume
 
 ---
 
-## 🥁 Stem Generation
+## Stem Generation
 
 To generate a **single instrument stem** (e.g. drums only), focus the entire positive prompt on that instrument and use the negative prompt to exclude everything else.
 
@@ -102,7 +102,7 @@ synth, bass, chords, pads, melody, strings, piano, arpeggio, guitar, harmony, le
 
 ---
 
-## 🗂️ Workflow Structure
+## Workflow Structure
 
 The graph is organized into three groups:
 
